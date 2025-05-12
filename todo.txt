@@ -1,5 +1,2 @@
-Create VI for path and change name of dll
 Update docs
-Add test cases for closing connection
 Create installers
-Add code to replace ADAS error codes with new custom codes and messages.
