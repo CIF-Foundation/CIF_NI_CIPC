@@ -1,0 +1,5 @@
+chmod 777 /usr/lib/cif/cif_cipc.so.3.3.1
+# ln -s /usr/lib/ai-rti/ni_rti_functions_lib.so.0.1.1 /usr/lib/libni_rti_functions_lib.so 
+ln -s /usr/lib/cif/cif_cipc.so.3.3.1 /usr/lib/x86_64-linux-gnu/cif_cipc.so 
+
+ldconfig

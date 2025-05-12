@@ -26,9 +26,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="libnicipc.dll" Type="Document" URL="libnicipc.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="Read Configuration.ctl" Type="VI" URL="../../TypeDefs/Read Configuration.ctl"/>
 			<Item Name="Read Result Details.ctl" Type="VI" URL="../../TypeDefs/Read Result Details.ctl"/>
 		</Item>
