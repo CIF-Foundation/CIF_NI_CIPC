@@ -10,8 +10,15 @@
 </Property>
 	<Item Name="Core" Type="Folder">
 		<Item Name="Advanced" Type="Folder">
-			<Item Name="Read Advanced.vim" Type="VI" URL="../Core/Advanced/Read Advanced.vim"/>
 			<Item Name="Create Advanced.vim" Type="VI" URL="../Core/Advanced/Create Advanced.vim"/>
+			<Item Name="Read Advanced.vim" Type="VI" URL="../Core/Advanced/Read Advanced.vim"/>
+			<Item Name="Write Partial Array Data.vim" Type="VI" URL="../Core/Advanced/Write Partial Array Data.vim"/>
+		</Item>
+		<Item Name="Backpressure" Type="Folder">
+			<Item Name="Create Backpressure.vim" Type="VI" URL="../Core/Backpressure/Create Backpressure.vim"/>
+			<Item Name="Read Backpressure.vim" Type="VI" URL="../Core/Backpressure/Read Backpressure.vim"/>
+			<Item Name="Check Buffer Space Backpressure.vim" Type="VI" URL="../Core/Backpressure/Check Buffer Space Backpressure.vim"/>
+			<Item Name="Close Backpressure.vi" Type="VI" URL="../Core/Backpressure/Close Backpressure.vi"/>
 		</Item>
 		<Item Name="Create.vim" Type="VI" URL="../Core/Create.vim"/>
 		<Item Name="Read Element Single Copy.vim" Type="VI" URL="../Core/Read Element Single Copy.vim"/>
@@ -37,6 +44,11 @@
 		<Item Name="Encoder Info.ctl" Type="VI" URL="../TypeDefs/Encoder Info.ctl"/>
 		<Item Name="Data Element Details.ctl" Type="VI" URL="../TypeDefs/Data Element Details.ctl"/>
 		<Item Name="Data Element.ctl" Type="VI" URL="../TypeDefs/Data Element.ctl"/>
+		<Item Name="Read Result Details.ctl" Type="VI" URL="../TypeDefs/Read Result Details.ctl"/>
+		<Item Name="Backpressure References.ctl" Type="VI" URL="../TypeDefs/Backpressure References.ctl"/>
+		<Item Name="Read Configuration.ctl" Type="VI" URL="../TypeDefs/Read Configuration.ctl"/>
+		<Item Name="Write Configuration.ctl" Type="VI" URL="../TypeDefs/Write Configuration.ctl"/>
+		<Item Name="Partial Write Configuration.ctl" Type="VI" URL="../TypeDefs/Partial Write Configuration.ctl"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Check Error.vi" Type="VI" URL="../SubVIs/Check Error.vi"/>
@@ -49,6 +61,7 @@
 		<Item Name="Notify Of New Write.vi" Type="VI" URL="../SubVIs/Notify Of New Write.vi"/>
 		<Item Name="Read Head.vi" Type="VI" URL="../SubVIs/Read Head.vi"/>
 		<Item Name="Read Tail.vi" Type="VI" URL="../SubVIs/Read Tail.vi"/>
+		<Item Name="Get Backpressure Name.vi" Type="VI" URL="../SubVIs/Get Backpressure Name.vi"/>
 		<Item Name="Get dll Path.vi" Type="VI" URL="../SubVIs/Get dll Path.vi"/>
 	</Item>
 </Library>

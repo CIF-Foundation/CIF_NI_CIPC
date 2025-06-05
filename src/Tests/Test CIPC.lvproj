@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="21008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -12,6 +13,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="CIF_NI_CIPC.lvlib" Type="Library" URL="../../CIF_NI_CIPC.lvlib"/>
+		<Item Name="Backpressure Test.vi" Type="VI" URL="../Backpressure Test.vi"/>
 		<Item Name="Performance Test.vi" Type="VI" URL="../Performance Test.vi"/>
 		<Item Name="Test write read.vi" Type="VI" URL="../Test write read.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -26,8 +28,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Read Configuration.ctl" Type="VI" URL="../../TypeDefs/Read Configuration.ctl"/>
-			<Item Name="Read Result Details.ctl" Type="VI" URL="../../TypeDefs/Read Result Details.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
