@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-06-05 14:17:55" Creator="toddw" Comments="" ID="ab95b65966aa3e7ce2d9cd94bd22697c">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-06-05 14:21:35" Creator="toddw" Comments="" ID="74672b39e879b0deda39f7bb988f3f9a">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_NI_CIPC</Package_File_Name>
-    <Library_Version>1.2.0.2</Library_Version>
+    <Library_Version>1.2.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
-    <Library_Output_Folder>..\..\Packages\builds\VIPM</Library_Output_Folder>
+    <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
     <Company_Name>CIF Foundation</Company_Name>
     <Library_Summary/>
     <Library_License/>
@@ -387,7 +387,7 @@ This library provides wrappers around the NI dll for CIPC (circular interprocess
         <Path>..\src\Core\Backpressure\Close Backpressure.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D0BF87A1C3557F1527CAFDF590152FFF</GUID>
+      <GUID>61617A5B3AB53173AAE52E3A8A506EAF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -548,7 +548,7 @@ This library provides wrappers around the NI dll for CIPC (circular interprocess
         <Path>..\src\Utilities\Decode Data Element Descriptions.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FCE9F1CC660A7E0E749748FF402D9A01</GUID>
+      <GUID>1ACA09C2B24A82384C5D267503B513AA</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
