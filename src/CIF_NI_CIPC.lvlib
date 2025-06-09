@@ -17,6 +17,7 @@
 		<Item Name="Backpressure" Type="Folder">
 			<Item Name="Create Backpressure.vim" Type="VI" URL="../Core/Backpressure/Create Backpressure.vim"/>
 			<Item Name="Read Backpressure.vim" Type="VI" URL="../Core/Backpressure/Read Backpressure.vim"/>
+			<Item Name="Read Backpressure Advanced.vim" Type="VI" URL="../Core/Backpressure/Read Backpressure Advanced.vim"/>
 			<Item Name="Check Buffer Space Backpressure.vim" Type="VI" URL="../Core/Backpressure/Check Buffer Space Backpressure.vim"/>
 			<Item Name="Close Backpressure.vi" Type="VI" URL="../Core/Backpressure/Close Backpressure.vi"/>
 		</Item>
