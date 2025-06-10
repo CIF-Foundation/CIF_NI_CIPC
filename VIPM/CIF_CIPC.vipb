@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-06-09 15:10:23" Creator="toddw" Comments="" ID="fa6ecb101f66dad9a10610c65fe464f2">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-06-10 11:18:58" Creator="toddw" Comments="" ID="8fbc3aa474271c7d61a743fdc04203a1">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_NI_CIPC</Package_File_Name>
-    <Library_Version>1.4.0.2</Library_Version>
+    <Library_Version>1.5.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -34,7 +34,7 @@ This library provides wrappers around the NI dll for CIPC (circular interprocess
       <Copyright/>
       <Packager>DOME Automation</Packager>
       <URL/>
-      <Release_Notes>Added advanced backpressure read.  Update to palettes.</Release_Notes>
+      <Release_Notes>Added config for last read on advanced backpressure read.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -331,7 +331,7 @@ This library provides wrappers around the NI dll for CIPC (circular interprocess
         <Path>..\src\Utilities\Close by Reference.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A4D6A773D7038568824268182D9AD4B9</GUID>
+      <GUID>5451C2FC3D018176614EA7EC44F97595</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -492,7 +492,7 @@ This library provides wrappers around the NI dll for CIPC (circular interprocess
         <Path>..\src\Utilities\Decode Data Element Descriptions.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9E906F9136E201A7CA50778B3BE185EA</GUID>
+      <GUID>1F69A0E8C0A5B792956ED7D574C9810F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -625,7 +625,7 @@ This library provides wrappers around the NI dll for CIPC (circular interprocess
         <Path>..\src\Core\Backpressure\Close Backpressure.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0795FADDD73A38CF7E92BC397332E1D7</GUID>
+      <GUID>E40D033A0D9CBCB7A5BB80D6413CB45F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
