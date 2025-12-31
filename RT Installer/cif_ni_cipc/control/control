@@ -1,5 +1,5 @@
 Package: cif_ni_cipc
-Version: 0.1.0.0
+Version: 0.1.1.0
 Architecture: core2-64
 Maintainer: todd.walter@domeautomation.com
 Description: This provides the required libraries to support communications using the NI CIPC API.
