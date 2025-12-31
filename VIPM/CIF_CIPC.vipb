@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-12-24 11:15:27" Creator="toddw" Comments="" ID="b659209e4aaa947591a3c5a53629f02f">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-12-31 08:12:21" Creator="toddw" Comments="" ID="ed764e0d51a0745a474c6409f8f84d08">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_NI_CIPC</Package_File_Name>
-    <Library_Version>1.7.1.5</Library_Version>
+    <Library_Version>1.7.2.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -333,7 +333,7 @@ It will run in WIndows, Linux, and LinuxRT.  Linux and Linux RT require the .so 
         <Path>..\src\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8BCC89A383468C70C16E3D34EE835208</GUID>
+      <GUID>B3D26CE3E47FF75201C0E962FC28E267</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -494,7 +494,7 @@ It will run in WIndows, Linux, and LinuxRT.  Linux and Linux RT require the .so 
         <Path>..\src\Utilities\Decode Data Element Descriptions.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>028BFD28DE58BF1F50124B07CEC8EBC3</GUID>
+      <GUID>BA3246FA8EC153F0403949C659D1A206</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -627,7 +627,7 @@ It will run in WIndows, Linux, and LinuxRT.  Linux and Linux RT require the .so 
         <Path>..\src\Core\Backpressure\Close Backpressure.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>814AEE978CA2D4D69E5EE0575802EB30</GUID>
+      <GUID>545DFA59802DC9A26116CC11D4903C05</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

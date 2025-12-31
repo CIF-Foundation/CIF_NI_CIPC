@@ -1,1 +1,1 @@
-unlink /usr/lib/x86_64-linux-gnu/cif_cipc.so
+unlink /usr/lib/cif_cipc.so
