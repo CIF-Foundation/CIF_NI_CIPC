@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2025-12-31 08:12:21" Creator="toddw" Comments="" ID="ed764e0d51a0745a474c6409f8f84d08">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2026-01-31 18:09:33" Creator="toddw" Comments="" ID="c339c189ebcf943bf76b066b53c814b3">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_NI_CIPC</Package_File_Name>
-    <Library_Version>1.7.2.6</Library_Version>
+    <Library_Version>1.7.4.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -32,11 +32,13 @@
 
 This library provides wrappers around the NI dll for CIPC (circular interprocess communication) library.
 
-It will run in WIndows, Linux, and LinuxRT.  Linux and Linux RT require the .so to be installed on the target.  Instructions are in the readme in the /resource folder</Description>
+It will run in WIndows, Linux, and LinuxRT.  
+
+Linux and Linux RT require the .so to be installed on the target.  There is a separate installer for the .so (cif-ni-cipc).  </Description>
       <Copyright/>
       <Packager>DOME Automation</Packager>
       <URL/>
-      <Release_Notes>Changed installation location of dll to fixed path to support version changes and built PPLs.  </Release_Notes>
+      <Release_Notes>Added error output message including expected path if dll is not found.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -333,7 +335,7 @@ It will run in WIndows, Linux, and LinuxRT.  Linux and Linux RT require the .so 
         <Path>..\src\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B3D26CE3E47FF75201C0E962FC28E267</GUID>
+      <GUID>732F96415C60A372868716138B81E476</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -494,7 +496,7 @@ It will run in WIndows, Linux, and LinuxRT.  Linux and Linux RT require the .so 
         <Path>..\src\Utilities\Decode Data Element Descriptions.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BA3246FA8EC153F0403949C659D1A206</GUID>
+      <GUID>92F3BC66C7252427E30FF357BA098A38</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -627,7 +629,7 @@ It will run in WIndows, Linux, and LinuxRT.  Linux and Linux RT require the .so 
         <Path>..\src\Core\Backpressure\Close Backpressure.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>545DFA59802DC9A26116CC11D4903C05</GUID>
+      <GUID>8BC961C3406AB2121DAC8D6DB06A249B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
