@@ -38,9 +38,13 @@
 		<Item Name="Close by Reference.vi" Type="VI" URL="../Utilities/Close by Reference.vi"/>
 		<Item Name="Remove by Name.vi" Type="VI" URL="../Utilities/Remove by Name.vi"/>
 		<Item Name="Decode Data Element Descriptions.vi" Type="VI" URL="../Utilities/Decode Data Element Descriptions.vi"/>
+		<Item Name="Create Single Element Packed Info.vi" Type="VI" URL="../Utilities/Create Single Element Packed Info.vi"/>
+		<Item Name="Pack Data.vi" Type="VI" URL="../Utilities/Pack Data.vi"/>
+		<Item Name="Get Packed Info.vi" Type="VI" URL="../Utilities/Get Packed Info.vi"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="Info Size.ctl" Type="VI" URL="../TypeDefs/Info Size.ctl"/>
+		<Item Name="Data Struct Array Info.ctl" Type="VI" URL="../TypeDefs/Data Struct Array Info.ctl"/>
 		<Item Name="Read Position.ctl" Type="VI" URL="../TypeDefs/Read Position.ctl"/>
 		<Item Name="Encoder Info.ctl" Type="VI" URL="../TypeDefs/Encoder Info.ctl"/>
 		<Item Name="Data Element Details.ctl" Type="VI" URL="../TypeDefs/Data Element Details.ctl"/>
@@ -48,8 +52,12 @@
 		<Item Name="Read Result Details.ctl" Type="VI" URL="../TypeDefs/Read Result Details.ctl"/>
 		<Item Name="Backpressure References.ctl" Type="VI" URL="../TypeDefs/Backpressure References.ctl"/>
 		<Item Name="Read Configuration.ctl" Type="VI" URL="../TypeDefs/Read Configuration.ctl"/>
+		<Item Name="Data Struct Info.ctl" Type="VI" URL="../TypeDefs/Data Struct Info.ctl"/>
 		<Item Name="Write Configuration.ctl" Type="VI" URL="../TypeDefs/Write Configuration.ctl"/>
 		<Item Name="Partial Write Configuration.ctl" Type="VI" URL="../TypeDefs/Partial Write Configuration.ctl"/>
+		<Item Name="Alignment.ctl" Type="VI" URL="../TypeDefs/Alignment.ctl"/>
+		<Item Name="Data Encoding.ctl" Type="VI" URL="../TypeDefs/Data Encoding.ctl"/>
+		<Item Name="Errors.ctl" Type="VI" URL="../TypeDefs/Errors.ctl"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Check Error.vi" Type="VI" URL="../SubVIs/Check Error.vi"/>
@@ -64,5 +72,8 @@
 		<Item Name="Read Tail.vi" Type="VI" URL="../SubVIs/Read Tail.vi"/>
 		<Item Name="Get Backpressure Name.vi" Type="VI" URL="../SubVIs/Get Backpressure Name.vi"/>
 		<Item Name="Get dll Path.vi" Type="VI" URL="../SubVIs/Get dll Path.vi"/>
+		<Item Name="Decode Array Element Data.vi" Type="VI" URL="../SubVIs/Decode Array Element Data.vi"/>
+		<Item Name="Pack Data Element.vi" Type="VI" URL="../SubVIs/Pack Data Element.vi"/>
+		<Item Name="Add CIPC Error.vi" Type="VI" URL="../SubVIs/Add CIPC Error.vi"/>
 	</Item>
 </Library>
