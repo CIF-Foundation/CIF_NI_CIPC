@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2026-03-25 15:24:09" Creator="toddw" Comments="" ID="28ac9b0b5df342e24c58a07aaac22c05">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2026-04-05 15:39:37" Creator="toddw" Comments="" ID="ed7d53878edb5e0aa3de310b7a804fc8">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_NI_CIPC</Package_File_Name>
-    <Library_Version>1.8.1.11</Library_Version>
+    <Library_Version>1.8.2.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -38,7 +38,7 @@ Linux and Linux RT require the .so to be installed on the target.  There is a se
       <Copyright/>
       <Packager>DOME Automation</Packager>
       <URL/>
-      <Release_Notes>Added support for parsing data description strings and packing data for logging.  </Release_Notes>
+      <Release_Notes>Fixed bug in offset calculation for packing.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -335,7 +335,7 @@ Linux and Linux RT require the .so to be installed on the target.  There is a se
         <Path>..\src\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F90DDEBEC1E3BEB01068C623F515CC5D</GUID>
+      <GUID>94EABDE0670C6B873AE98F8F0F6809F7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -538,7 +538,7 @@ Linux and Linux RT require the .so to be installed on the target.  There is a se
         <Path>..\src\Utilities\Pack Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6EAC3B7F1E4A3FDDA5824479F7DBEBF7</GUID>
+      <GUID>E0E2F4801C53850529C35ECFDDC5AAA6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -671,7 +671,7 @@ Linux and Linux RT require the .so to be installed on the target.  There is a se
         <Path>..\src\Core\Backpressure\Close Backpressure.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C4EA267C3C22098EE976CFF0826E5B40</GUID>
+      <GUID>17A44AEF1E50E0A2ADAE86DF03B57ACB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
