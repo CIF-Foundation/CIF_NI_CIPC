@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2026-04-05 15:39:37" Creator="toddw" Comments="" ID="ed7d53878edb5e0aa3de310b7a804fc8">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2026-05-22 13:27:34" Creator="toddw" Comments="" ID="ee9aa4f5eeca3bb86c290f4f8100b4cf">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_NI_CIPC</Package_File_Name>
-    <Library_Version>1.8.2.12</Library_Version>
+    <Library_Version>1.8.2.15</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -21,7 +21,7 @@
       <Pre-Build_VI/>
       <Post-Build_VI/>
       <Pre-Install_VI/>
-      <Post-Install_VI>CIPC Post-Install Custom Action.vi</Post-Install_VI>
+      <Post-Install_VI/>
       <Pre-Uninstall_VI/>
       <Post-Uninstall_VI/>
     </Custom_Action_VIs>
@@ -34,7 +34,7 @@ This library provides wrappers around the NI dll for CIPC (circular interprocess
 
 It will run in WIndows, Linux, and LinuxRT.  
 
-Linux and Linux RT require the .so to be installed on the target.  There is a separate installer for the .so (cif-ni-cipc).  </Description>
+The code uses a compiled binary.  Windows requires the dll to be installed and Linux and Linux RT require the .so to be installed on the target.  There is a separate installer for the .dll/.so (cif-ni-cipc).  </Description>
       <Copyright/>
       <Packager>DOME Automation</Packager>
       <URL/>
@@ -335,7 +335,7 @@ Linux and Linux RT require the .so to be installed on the target.  There is a se
         <Path>..\src\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>94EABDE0670C6B873AE98F8F0F6809F7</GUID>
+      <GUID>CD7E117313C6B9C21716AA139D95474D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -538,7 +538,7 @@ Linux and Linux RT require the .so to be installed on the target.  There is a se
         <Path>..\src\Utilities\Pack Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E0E2F4801C53850529C35ECFDDC5AAA6</GUID>
+      <GUID>0ECB032BFBF39A20044971DCAE6B7164</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -671,7 +671,7 @@ Linux and Linux RT require the .so to be installed on the target.  There is a se
         <Path>..\src\Core\Backpressure\Close Backpressure.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>17A44AEF1E50E0A2ADAE86DF03B57ACB</GUID>
+      <GUID>AEF58D73C753E043C7C1F512FA4C888B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
