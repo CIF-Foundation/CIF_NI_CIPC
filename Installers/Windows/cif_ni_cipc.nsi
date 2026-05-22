@@ -5,13 +5,14 @@
 
 !define PRODUCT_NAME "CIF NI CIPC"
 !define PRODUCT_VERSION "0.1.1"
+!define PACKAGE_NAME "cif-ni-cipc"
 !define PRODUCT_PUBLISHER "Dome Automation"
 !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\CIF_NI_CIPC"
 !define INSTALL_DIR "$PROGRAMFILES64\CIF_Foundation\Libraries"
-!define UNINSTALLER_NAME "cif_ni_cipc-Uninstall.exe"
+!define UNINSTALLER_NAME "${PACKAGE_NAME}-Uninstall.exe"
 
 Name "${PRODUCT_NAME} ${PRODUCT_VERSION}"
-OutFile "cif_ni_cipc-${PRODUCT_VERSION}.exe"
+OutFile "${PACKAGE_NAME}-${PRODUCT_VERSION}.exe"
 InstallDir "${INSTALL_DIR}"
 RequestExecutionLevel admin
 ShowInstDetails show

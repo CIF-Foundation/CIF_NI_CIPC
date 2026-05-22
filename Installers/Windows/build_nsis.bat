@@ -14,6 +14,6 @@ if errorlevel 1 (
   exit /b 1
 )
 
-echo Successfully created cif_ni_cipc-0.1.1.exe
+echo Successfully created cif-ni-cipc-0.1.1.exe
 popd
 endlocal
