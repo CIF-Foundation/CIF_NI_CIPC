@@ -20,6 +20,8 @@
 			<Item Name="Read Backpressure Advanced.vim" Type="VI" URL="../Core/Backpressure/Read Backpressure Advanced.vim"/>
 			<Item Name="Check Buffer Space Backpressure.vim" Type="VI" URL="../Core/Backpressure/Check Buffer Space Backpressure.vim"/>
 			<Item Name="Close Backpressure.vi" Type="VI" URL="../Core/Backpressure/Close Backpressure.vi"/>
+			<Item Name="Open Backpressure Reader.vi" Type="VI" URL="../Core/Backpressure/Open Backpressure Reader.vi"/>
+			<Item Name="Close Backpressure Reader.vi" Type="VI" URL="../Core/Backpressure/Close Backpressure Reader.vi"/>
 		</Item>
 		<Item Name="Create.vim" Type="VI" URL="../Core/Create.vim"/>
 		<Item Name="Read Element Single Copy.vim" Type="VI" URL="../Core/Read Element Single Copy.vim"/>
@@ -58,6 +60,7 @@
 		<Item Name="Alignment.ctl" Type="VI" URL="../TypeDefs/Alignment.ctl"/>
 		<Item Name="Data Encoding.ctl" Type="VI" URL="../TypeDefs/Data Encoding.ctl"/>
 		<Item Name="Errors.ctl" Type="VI" URL="../TypeDefs/Errors.ctl"/>
+		<Item Name="Backpressure Names.ctl" Type="VI" URL="../TypeDefs/Backpressure Names.ctl"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Check Error.vi" Type="VI" URL="../SubVIs/Check Error.vi"/>
@@ -75,5 +78,6 @@
 		<Item Name="Decode Array Element Data.vi" Type="VI" URL="../SubVIs/Decode Array Element Data.vi"/>
 		<Item Name="Pack Data Element.vi" Type="VI" URL="../SubVIs/Pack Data Element.vi"/>
 		<Item Name="Add CIPC Error.vi" Type="VI" URL="../SubVIs/Add CIPC Error.vi"/>
+		<Item Name="Check Backpressure FIFO Space.vi" Type="VI" URL="../SubVIs/Check Backpressure FIFO Space.vi"/>
 	</Item>
 </Library>

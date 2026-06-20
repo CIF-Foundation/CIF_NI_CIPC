@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2026-05-22 13:27:34" Creator="toddw" Comments="" ID="ee9aa4f5eeca3bb86c290f4f8100b4cf">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2025-02-08 07:45:01" Modified_Date="2026-06-20 13:27:11" Creator="toddw" Comments="" ID="a7eceaf4bb357a742e93e1b76511eb32">
   <Library_General_Settings>
     <Package_File_Name>CIF_Foundation_lib_NI_CIPC</Package_File_Name>
-    <Library_Version>1.8.2.15</Library_Version>
+    <Library_Version>2.0.0.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\..\builds\VIPM</Library_Output_Folder>
@@ -16,7 +16,9 @@
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
-    <Package_Dependencies/>
+    <Package_Dependencies>
+      <Additional_External_Dependencies>cif_foundation_lib_cif_utilities &gt;=4.16.0.1</Additional_External_Dependencies>
+    </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
@@ -38,7 +40,7 @@ The code uses a compiled binary.  Windows requires the dll to be installed and L
       <Copyright/>
       <Packager>DOME Automation</Packager>
       <URL/>
-      <Release_Notes>Fixed bug in offset calculation for packing.</Release_Notes>
+      <Release_Notes>Fixed bug in backpressure rollover handing.  Updated BP mechanism to open by name to support multi-process with back pressure.  </Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -335,7 +337,7 @@ The code uses a compiled binary.  Windows requires the dll to be installed and L
         <Path>..\src\Advanced</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CD7E117313C6B9C21716AA139D95474D</GUID>
+      <GUID>6F07FE1F7FB6E4B4026274366FD4E9BA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -538,7 +540,7 @@ The code uses a compiled binary.  Windows requires the dll to be installed and L
         <Path>..\src\Utilities\Pack Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0ECB032BFBF39A20044971DCAE6B7164</GUID>
+      <GUID>67A421BFEFF99159B253AE8B4F038BDA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -671,7 +673,7 @@ The code uses a compiled binary.  Windows requires the dll to be installed and L
         <Path>..\src\Core\Backpressure\Close Backpressure.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AEF58D73C753E043C7C1F512FA4C888B</GUID>
+      <GUID>892B54870F2A463C876E2C9EA6C4C208</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
