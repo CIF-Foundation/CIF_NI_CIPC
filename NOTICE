@@ -1,0 +1,35 @@
+CIF-NI-CIPC
+Copyright 2024-2026 CIF Foundation
+
+This product includes software developed by CIF Foundation.
+
+================================================================================
+
+Third-Party Components
+
+Bundled third-party binaries in this repository:
+
+  - NI CIPC libraries (src/resource/cif_cipc.dll, cif_cipc.so*)
+    Copyright National Instruments Corporation
+    Licensed under the NI Source Code License (GPSLA Addendum A)
+    See src/resource/LICENSE and src/resource/NI-Source-Code-License.txt
+
+These binaries are also distributed separately via the cif-ni-cipc installer
+(Windows NSIS, Linux deb, and Linux RT ipk packages).
+
+This software is designed to be used with the following companion packages.
+Each package is subject to its own license terms.
+
+Companion CIF Foundation packages:
+
+  - cif_foundation_lib_cif_utilities
+
+Refer to each package's license and documentation for its terms.
+
+================================================================================
+
+LabVIEW
+
+Portions of this project are built with National Instruments LabVIEW. LabVIEW
+is a commercial product of National Instruments (NI). Use of LabVIEW requires
+a separate license from NI.

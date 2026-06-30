@@ -10,6 +10,7 @@
 !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\CIF_NI_CIPC"
 !define INSTALL_DIR "$PROGRAMFILES64\CIF_Foundation\Libraries"
 !define UNINSTALLER_NAME "${PACKAGE_NAME}-Uninstall.exe"
+!define LICENSE_FILE "..\..\src\resource\NI-Source-Code-License.txt"
 
 Name "${PRODUCT_NAME} ${PRODUCT_VERSION}"
 OutFile "${PACKAGE_NAME}-${PRODUCT_VERSION}.exe"
@@ -19,6 +20,7 @@ ShowInstDetails show
 ShowUnInstDetails show
 
 !insertmacro MUI_PAGE_WELCOME
+!insertmacro MUI_PAGE_LICENSE "${LICENSE_FILE}"
 !insertmacro MUI_PAGE_INSTFILES
 !define MUI_FINISHPAGE_TEXT "Setup has successfully installed ${PRODUCT_NAME}.$\r$\n$\r$\nIf you are using CIPC from LabVIEW you should also install the CIF CIPC package using VIPM."
 !insertmacro MUI_PAGE_FINISH
@@ -31,6 +33,8 @@ ShowUnInstDetails show
 Section "Install"
   SetOutPath "${INSTALL_DIR}"
   File "resource\cif_cipc.dll"
+  File "${LICENSE_FILE}"
+  File "..\..\src\resource\LICENSE"
 
   WriteUninstaller "${INSTALL_DIR}\${UNINSTALLER_NAME}"
 
@@ -45,6 +49,8 @@ SectionEnd
 
 Section "Uninstall"
   Delete "${INSTALL_DIR}\cif_cipc.dll"
+  Delete "${INSTALL_DIR}\NI-Source-Code-License.txt"
+  Delete "${INSTALL_DIR}\LICENSE"
   Delete "${INSTALL_DIR}\${UNINSTALLER_NAME}"
   DeleteRegKey HKLM "${PRODUCT_UNINST_KEY}"
 SectionEnd

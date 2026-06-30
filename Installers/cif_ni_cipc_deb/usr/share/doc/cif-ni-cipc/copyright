@@ -1,0 +1,19 @@
+cif-ni-cipc — NI CIPC binary libraries for CIF Foundation LabVIEW wrappers
+
+The compiled library files (cif_cipc.so*) in this package are object code
+derived from source originally provided by National Instruments Corporation.
+They are NOT licensed under Apache 2.0.
+
+These binaries are licensed under the NI Source Code License (Addendum A of
+the NI General Purpose Software License Agreement).
+
+Full license text is installed at:
+  /usr/share/doc/cif-ni-cipc/NI-Source-Code-License.txt
+
+Parent agreement reference:
+  https://www.ni.com/en/about-ni/legal/software-license-agreement.html
+
+Copyright National Instruments Corporation. All rights reserved.
+
+The cif-ni-cipc installer scripts and packaging metadata in the NI_CIPC
+repository are Copyright 2024-2026 CIF Foundation and licensed under Apache 2.0.

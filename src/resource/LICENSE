@@ -1,0 +1,22 @@
+Third-Party License Notice — National Instruments
+
+The compiled NI CIPC binary libraries in this directory (cif_cipc.dll,
+cif_cipc.so, and versioned variants such as cif_cipc.so.3.3.1) are provided
+by National Instruments Corporation and are NOT licensed under the Apache
+License 2.0 that applies to the rest of this repository.
+
+These binaries are object code derived from NI-provided source and are
+licensed under National Instruments' Source Code License (Addendum A of the
+NI General Purpose Software License Agreement).
+
+Full license terms:
+See NI-Source-Code-License.txt in this directory.
+
+Parent agreement reference:
+https://www.ni.com/en/about-ni/legal/software-license-agreement.html
+
+Copyright National Instruments Corporation. All rights reserved.
+
+Use, modification, and redistribution of these binaries is governed solely
+by the NI Source Code License. Do not assume Apache 2.0 permissions apply
+to these files.
