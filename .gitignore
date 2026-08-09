@@ -20,3 +20,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+
+# IPK build artifacts
+Installers/staging/
+Installers/output/
