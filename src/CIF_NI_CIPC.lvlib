@@ -64,6 +64,7 @@
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Check Error.vi" Type="VI" URL="../SubVIs/Check Error.vi"/>
+		<Item Name="Check Error Core.vi" Type="VI" URL="../SubVIs/Check Error Core.vi"/>
 		<Item Name="Get Element Description Variant.vi" Type="VI" URL="../SubVIs/Get Element Description Variant.vi"/>
 		<Item Name="Get Element Info Variant.vi" Type="VI" URL="../SubVIs/Get Element Info Variant.vi"/>
 		<Item Name="Set Element Read Position.vi" Type="VI" URL="../SubVIs/Set Element Read Position.vi"/>
@@ -78,6 +79,7 @@
 		<Item Name="Decode Array Element Data.vi" Type="VI" URL="../SubVIs/Decode Array Element Data.vi"/>
 		<Item Name="Pack Data Element.vi" Type="VI" URL="../SubVIs/Pack Data Element.vi"/>
 		<Item Name="Add CIPC Error.vi" Type="VI" URL="../SubVIs/Add CIPC Error.vi"/>
+		<Item Name="Add CIPC Error Core.vi" Type="VI" URL="../SubVIs/Add CIPC Error Core.vi"/>
 		<Item Name="Check Backpressure FIFO Space.vi" Type="VI" URL="../SubVIs/Check Backpressure FIFO Space.vi"/>
 	</Item>
 </Library>
