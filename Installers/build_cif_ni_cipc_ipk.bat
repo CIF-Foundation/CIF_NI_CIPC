@@ -19,7 +19,8 @@ rem Translate the Windows repo path to a path WSL can use, e.g. /mnt/d/dev/Packa
 for /f "usebackq delims=" %%I in (`wsl wslpath -a "%REPO_DIR%"`) do set "WSL_REPO=%%I"
 
 echo Building cif_ni_cipc_ipk via WSL...
-wsl bash -lc "cd '%WSL_REPO%/Installers' && chmod +x build_cif_ni_cipc_ipk.sh build_ipk.sh opkg-utils/opkg-build normalize_ipk_line_endings.py && ./build_cif_ni_cipc_ipk.sh"
+rem Strip CR from host scripts so WSL shebangs are "bash" not "bash\r".
+wsl bash -lc "cd '%WSL_REPO%/Installers' && sed -i 's/\r$//' build_cif_ni_cipc_ipk.sh build_ipk.sh opkg-utils/opkg-build normalize_ipk_line_endings.py && chmod +x build_cif_ni_cipc_ipk.sh build_ipk.sh opkg-utils/opkg-build normalize_ipk_line_endings.py && ./build_cif_ni_cipc_ipk.sh"
 if errorlevel 1 (
   echo Error: IPK build failed.
   exit /b 1

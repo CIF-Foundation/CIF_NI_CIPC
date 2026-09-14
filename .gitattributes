@@ -1,0 +1,34 @@
+# Linux/WSL/RT scripts must stay LF. Windows Git with core.autocrlf=true
+# otherwise checks them out as CRLF, and shebangs fail as "bash\r".
+*.sh text eol=lf
+*.py text eol=lf
+
+# Extensionless opkg/debian packaging files executed on Linux/RT.
+opkg-build text eol=lf
+control text eol=lf
+postinst text eol=lf
+prerm text eol=lf
+preinst text eol=lf
+postrm text eol=lf
+
+# Windows launchers and NSIS scripts.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.nsi text eol=crlf
+
+# LabVIEW and native binaries.
+*.vi binary
+*.ctl binary
+*.lvlibp binary
+*.rtexe binary
+*.so binary
+*.dll binary
+*.exe binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.zip binary
+*.gz binary
+*.ipk binary
+*.deb binary

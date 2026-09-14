@@ -4,7 +4,7 @@
 !include "MUI2.nsh"
 
 !define PRODUCT_NAME "CIF NI CIPC"
-!define PRODUCT_VERSION "0.1.1"
+!define PRODUCT_VERSION "0.1.2"
 !define PACKAGE_NAME "cif-ni-cipc"
 !define PRODUCT_PUBLISHER "Dome Automation"
 !define PRODUCT_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\CIF_NI_CIPC"
