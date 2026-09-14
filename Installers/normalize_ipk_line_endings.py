@@ -39,7 +39,6 @@ TEXT_SUFFIXES = {
 
 # Extensionless Linux/deployed files that must remain text with LF endings.
 TEXT_BASENAMES = {
-    ".gitkeep",
     "cif-logs",
     "cif_manager_destroy",
     "cifmanager",

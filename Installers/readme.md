@@ -36,4 +36,4 @@ From WSL/Linux:
 
 `bash Installers/build_deb.sh`
 
-The `.deb` is created in `Installers/`.
+The build copies the template to a native Linux temp directory (so `dpkg-deb` sees `DEBIAN/` as `0755` instead of the `777` mode WSL reports on `/mnt/d`), then writes `cif-ni-cipc_<version>_amd64.deb` to `Installers/output/`.
